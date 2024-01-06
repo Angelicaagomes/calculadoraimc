@@ -24,11 +24,11 @@ class ResultActivity2 : AppCompatActivity() {
         } else if (result in 18.5f..24.9f) {
               "Peso normal"
         } else if (result in 25f..29.9f) {
-             "Sobrepeso I"
+             "Excesso de peso"
         } else if (result in 30.0..39.9){
-             "Obesidade II"
+             "Obesidade"
         } else{
-            "Obesidade Grave III"
+            "Obesidade Grave "
                     }
         tvclassificacao.text=getString(R.string.message_classificaçao,classificacao)
 }
